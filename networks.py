@@ -211,7 +211,7 @@ class ConvBlock(nn.Module):
 
         return x+skip
     
-class CTS_CRFTrans(nn.Module):
+class CTranS_CRFTrans(nn.Module):
 
     def __init__(self, ini_channel, base_channel, convN, im_size, nite, num_class,c0,mod='refine'):
         super().__init__()
